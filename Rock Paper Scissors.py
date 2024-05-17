@@ -1,27 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import random
-
-
-# In[2]:
-
 
 user_wins = 0
 computer_wins = 0
 
-
-# In[3]:
-
-
 options = ["rock", "paper", "scissors"]
-
-
-# In[6]:
-
 
 while True:
     user_input = input("please enter rock/paper/scissors/q to quit: ").lower()
@@ -56,8 +39,6 @@ while True:
 print("you won",user_wins, "times.")
 print("The computer won", computer_wins, "times.")
 
-
-# In[ ]:
 
 
 
