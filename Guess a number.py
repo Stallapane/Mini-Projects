@@ -1,32 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
 
 import random
 
-
-# In[10]:
-
-
 # we will first ask the user to give a number
-
-
-# In[11]:
-
 
 top_of_range = input("give a number: ")
 
-
-# In[12]:
-
-
 # we will check if the input given by the user is a number and if it is, is it greater than 0.
-
-
-# In[13]:
-
 
 if top_of_range.isdigit():
     top_of_range = int(top_of_range)
@@ -37,22 +16,9 @@ else:
     print('Please enter a valid number')
     quit()
     
-
-
-# In[14]:
-
-
 random_number = random.randint(0,top_of_range)
 
-
-# In[15]:
-
-
 guesses = 0
-
-
-# In[16]:
-
 
 while True:
     guesses += 1
@@ -71,11 +37,5 @@ while True:
         print("You guessed a lower number")
 print("you got it in", guesses, "guesses")
         
-        
-
-
-# In[ ]:
-
-
 
 
