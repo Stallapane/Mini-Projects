@@ -1,26 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[10]:
-
 
 name = input("Hello :) enter you name: ")
 
-
-# In[11]:
-
-
 print("Hi", name , "welcome to the adventure")
 
-
-# In[12]:
-
-
 answer =  input("you are on a dirt road. do you want to go left or right? ").lower()
-
-
-# In[13]:
-
 
 if answer == "left":
     answer = input("You entered water world do you want to go swimming or walk around enter swim to go swimming or enter walk to walk around").lower()
@@ -45,14 +28,6 @@ elif answer == "right":
 else:
     print("Not a valid answer, You lost!")
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
